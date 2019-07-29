@@ -60,12 +60,12 @@ actual `snode` URL.
 
 *Note: You could also use a full fledged sero node as a bootnode, but it's the less recommended way.*
 
-*Note: there is bootnodes already available in sero alpha network and sero main network, setup developer's own 
+*Note: there is bootnodes already available in sero alpha network and sero main network, setup developer's own
 bootnode is supposed to be used for dev network.*
 
 
-##Community Resource
+## Community Resource
 
 **Official Website:**<https://www.spockchain.org>
 
-**Telegram:** <https://t.me/spockchain> 
+**Telegram:** <https://t.me/spockchain>
