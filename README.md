@@ -1,9 +1,18 @@
-## Go Spock
+# Go-Spock
+Decentralized Application Platform based on proof-of-capacity (PoC) consensus and Ethereum protocol written in Go.
 
-Decentralized Application Platform with proof-of-capacity(POC) consensus and refactored ethereum protocol by Golang.
+## Download
+#### Windows
+Click [spock_win64_v1.2.0.exe](https://github.com/spockchain/spock/blob/master/spock_win64_v1.2.0.exe "spock_win64_v1.2.0.exe") to download.
 
+#### Linux
+```shell
+$ wget https://raw.githubusercontent.com/spockchain/spock/master/spock_linux_amd64_v1.2.0
+$ chmod +x spock_linux_amd64_v1.2.0
+$ ./spock_linux_amd64_v1.2.0 --version
+```
 
-## Running `spock`
+## Run
 
 Going through all the possible command line flags is out of scope here (please consult our
 [CLI Wiki page](https://github.com/spockchain/spock/wiki/Command-Line-Options)),
@@ -11,15 +20,19 @@ but we've enumerated a few common parameter combos to get you up to speed quickl
 on how you can run your own `spock` instance.
 
 ### Full node on the main Spock network
-
 By far the most common scenario is people wanting to simply interact with the Spock
 network: create accounts; transfer funds; deploy and interact with contracts. For this
 particular use-case the user doesn't care about years-old historical data, so we need to sync to the current state of the network. To do so:
 
+#### Windows
 ```shell
-$ spock console
+> spock_win64_v1.2.0.exe console
 ```
 
+#### Linux
+```shell
+$ ./spock_linux_amd64_v1.2.0 console
+```
 This command will:
  * Start `spock`, it would start to download more data in exchange for avoiding processing the entire history
    of the Spock network, which is very CPU intensive.
