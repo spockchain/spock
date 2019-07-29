@@ -3,7 +3,7 @@ Decentralized Application Platform based on proof-of-capacity (PoC) consensus an
 
 ## Download
 #### Windows
-Click [spock_win64_v1.2.0.exe](https://github.com/spockchain/spock/blob/master/spock_win64_v1.2.0.exe "spock_win64_v1.2.0.exe") to download.
+Click [spock_win64_v1.2.0.exe](https://raw.githubusercontent.com/spockchain/spock/master/spock_win64_v1.2.0.exe "spock_win64_v1.2.0.exe") to download.
 
 #### Linux
 ```shell
