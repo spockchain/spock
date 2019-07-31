@@ -3,13 +3,13 @@ Decentralized Application Platform based on proof-of-capacity (PoC) consensus an
 
 ## Download
 #### Windows
-Click [spock_win64_v1.2.0.exe](https://raw.githubusercontent.com/spockchain/spock/master/spock_win64_v1.2.0.exe "spock_win64_v1.2.0.exe") to download.
+Click [spock_win64_v1.2.2.exe](https://raw.githubusercontent.com/spockchain/spock/master/spock_win64_v1.2.2.exe "spock_win64_v1.2.2.exe") to download.
 
 #### Linux
 ```shell
-$ wget https://raw.githubusercontent.com/spockchain/spock/master/spock_linux_amd64_v1.2.0
-$ chmod +x spock_linux_amd64_v1.2.0
-$ ./spock_linux_amd64_v1.2.0 --version
+$ wget https://raw.githubusercontent.com/spockchain/spock/master/spock_linux_amd64_v1.2.2
+$ chmod +x spock_linux_amd64_v1.2.2
+$ ./spock_linux_amd64_v1.2.2 --version
 ```
 
 ## Run
@@ -26,12 +26,12 @@ particular use-case the user doesn't care about years-old historical data, so we
 
 #### Windows
 ```shell
-> spock_win64_v1.2.0.exe console
+> spock_win64_v1.2.2.exe console
 ```
 
 #### Linux
 ```shell
-$ ./spock_linux_amd64_v1.2.0 console
+$ ./spock_linux_amd64_v1.2.2 console
 ```
 This command will:
  * Start `spock`, it would start to download more data in exchange for avoiding processing the entire history
