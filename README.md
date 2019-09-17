@@ -76,6 +76,21 @@ actual `snode` URL.
 *Note: there is bootnodes already available in sero alpha network and sero main network, setup developer's own
 bootnode is supposed to be used for dev network.*
 
+## Docker
+
+### Build Image
+
+```
+$ git clone https://github.com/spockchain/spock.git
+$ cd spockchain
+$ docker build -t spock:latest .
+```
+
+### Run
+
+```
+docker run -p 9666:9666 -p 9667:9667 -v <volume>:/chaindata -d spock:latest
+```
 
 ## Community Resource
 
